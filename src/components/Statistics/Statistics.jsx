@@ -5,7 +5,7 @@ import Notification from './Notification';
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
     <div className={s.statistics}>
-      {good ? (
+      {total ? (
         <>
           <p>Good: {good}</p>
           <p>Neutral: {neutral}</p>
